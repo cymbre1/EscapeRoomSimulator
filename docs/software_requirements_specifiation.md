@@ -10,25 +10,34 @@ Description of purpose
     5. User shall be able to input command via a text interface
     6. User shall be able to access a list of commands
 2. Scenarios
-    1. System shall be able to run multiple escape room scenarios
-    2. System shall be able to read new scenarios from a zip file
-    3 User shall be able to view an escape room template guide
+    1. System shall be able to run different escape room scenarios
+    2. System shall be able to read new scenarios from a text document
+    3. User shall be able to view an escape room template guide
+    2. Codes shall be case sensitive
+    4. Escape Room test files shall contain a beginning, end, rooms, keys, and a map
 3. Resuming
     1. User shall be able to save
     2. User shall be able to resume a game from a save file
-4. System requirements
     1. Program shall store inventory data
+    2. Program shall store note data
+    3. Program shall store player location
 # Non-functional Requirements
 1. Options
     1. User interface shall be able to change font size
     2. User interface shall have serif and sans serif font options
     3. User interface shall be able to switch between multiple color themes
+    4. User interface shall have an area to see changes made to visual settings
+    5. User interface shall have a button to change visual settings to their default
 2. User Interface
     1. User interface shall appear as a computer terminal
     3. User interface shall display images that correspond to the story line
     4. User interface shall display an inventory
     5. User interface shall have a high contrast for inital color settings
     6. User interface shall have all options visible between 1 or 2 interactions
-3. Portablility
+     
+3. Usability
     1. Program shall be able to run on Windows, Mac, or Linux
-    2. User interface shall be able to autoscale
+    1. Program shall not crash upon an invalid input
+    7. User interface shall display entered commands back to the user.
+    7. User interface shall be able to toggle display between inventory and notes
+    8. User interface shall be able to toggle display between map image and area image
