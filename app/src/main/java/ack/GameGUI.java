@@ -449,13 +449,17 @@ public class GameGUI extends JFrame implements ActionListener {
                         break;
                     case "delete":
                         if (sc.hasNext()) {
-                            if (Integer.parseInt(commandInput.substring(7)) > player.getNotes().size() || 
+                            try {
+                                if (Integer.parseInt(commandInput.substring(7)) > player.getNotes().size() || 
                                 Integer.parseInt(commandInput.substring(7)) <= 0)
                                 outList.addElement("There is no note at index " + Integer.parseInt(commandInput.substring(7)));
                             else {
                                 noteList.remove(Integer.parseInt(commandInput.substring(7)) - 1);
                                 player.delNote(Integer.parseInt(commandInput.substring(7)) - 1);
                                 outList.addElement("You deleted a note!");
+                            }
+                            } catch (Exception exception) {
+                                outList.addElement("Please enter the index of the note you'd like to delete");
                             }
                         }
                         else
