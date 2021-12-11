@@ -467,12 +467,12 @@ public class GameGUI extends JFrame implements ActionListener {
                         outList.addElement("<html>The following are possible commands with examples in bold italics:<br>" + 
                         "<b>\"clear\"</b> will clear all text from the current screen. <i><b>clear</b></i><br>" +
                         "<b>\"create\"</b> allows you to create a note out of everything you've typed after create. <i><b>create [note]</b></i><br>" +
-                        "<b>\"delete\"</b> allows you to delete the note you've typed after delete. <i><b>delete [note]</b></i><br>" +
+                        "<b>\"delete\"</b> allows you to delete the note you've typed after delete. <i><b>delete [note number]</b></i><br>" +
                         "<b>\"help\"</b> brings you to this list of commands. <i><b>help</b></i><br>" +
                         "<b>\"input\"</b> allows you to input a code to a room you can get to from your current room.  Remember to input the name of the room you want to unlock in quotes, then the code you want to try. <i><b>input \"[room]\" [code]</b></i><br>" +
                         "<b>\"inspect\"</b> allows you to investigate the room you're currently in <i><b>inspect</b></i><br>" +
                         "<b>\"list\"</b> shows a list of rooms you can get to from your current position <i><b>list</b></i><br>" +
-                        "<b>\"move\"</b> allows you to move to a room that you've typed the name of <i><b>move [room]</b></i>");
+                        "<b>\"move\"</b> allows you to move to a room that you've typed the name of.  This does not need to be in quotes <i><b>move [room]</b></i>");
                         command.setText(null);
                         break;
                     case "input":
@@ -501,6 +501,7 @@ public class GameGUI extends JFrame implements ActionListener {
                                 outList.addElement("~");
                                 outList.addElement(player.getCurrentPosition().getScript());
                                 outList.addElement(escapeRoom.getEndText());
+                                command.setEditable(false);
                             }
                             imageFile = escapeFolder + player.getCurrentPosition().getImage();
                             try {

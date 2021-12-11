@@ -44,6 +44,7 @@ Be able to effectively run escape room scenarios in a way people can easily acce
 
 # Previous Artifacts
 * [Midterm Presentation](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/GroupPresentation.pptx)
+* [Final Presentation](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/ACK!TeamFinalPresentation.pdf)
 * [GANTT Chart](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/ACK!%20GANTT%20Chart.pdf)
 * [High-Level tasks](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/high-level_tasks.md)
 * [Proposal](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/proposal-template.md)
