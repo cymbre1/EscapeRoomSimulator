@@ -41,3 +41,12 @@ Be able to effectively run escape room scenarios in a way people can easily acce
     7. User interface shall display entered commands back to the user.
     7. User interface shall be able to toggle display between inventory and notes
     8. User interface shall be able to toggle display between map image and area image
+
+# Previous Artifacts
+* [Midterm Presentation](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/GroupPresentation.pptx)
+* [GANTT Chart](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/ACK!%20GANTT%20Chart.pdf)
+* [High-Level tasks](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/high-level_tasks.md)
+* [Proposal](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/docs/proposal-template.md)
+* [Class Diagram](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/artifacts/Escape%20Room%20Class%20Diagram.pdf)
+* [use case diagram](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/artifacts/use_case_diagrams/UseCaseDiagrams.pdf)
+* [Use Case Descriptions](https://github.com/cymbre1/GVSU-CIS350-ACK/blob/master/artifacts/use_case_diagrams/useCaseDescriptionOptions.md)
